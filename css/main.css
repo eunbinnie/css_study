@@ -11,7 +11,7 @@
   background-color: royalblue;
 }
 
-/* active : 마우스로 선택 */
+/* 가상 클래스 선택자 active : 마우스로 선택 */
 .box:active {
   width: 300px;
   background-color: bisque;
