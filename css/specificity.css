@@ -1,0 +1,28 @@
+div {
+  font-size: 70px;
+}
+
+#hello {
+  color: black;
+}
+
+div.hello {
+  color: green;
+}
+
+/* !important 되도록 하지 말기(1000점을 뛰어 넘음) */
+.hello {
+  color: red !important;
+}
+
+/* 0점 */
+* {}
+
+/* 1점 */
+div {}
+
+/* 10점 */
+.hello {}
+
+/* 100점 */
+#hello {}
