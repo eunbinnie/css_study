@@ -1,3 +1,24 @@
-div {
-  font-size: 100px;
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: 1s;
+}
+
+/* 가상 클래스 선택자 hover : 마우스 올려놓았을 때 */
+.box:hover {
+  width: 300px;
+  background-color: royalblue;
+}
+
+/* active : 마우스로 선택 */
+.box:active {
+  width: 300px;
+  background-color: bisque;
+}
+
+input {}
+
+input:focus {
+  background-color: orange;
 }
