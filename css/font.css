@@ -1,0 +1,34 @@
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  /* 글자 기울기 */
+  font-style: italic;
+  font-family: serif;
+}
+
+p {
+  /* font-size: 16px; 기본 16px */
+  width: 350px;
+  padding: 10px;
+  border: 1px solid;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+a {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100px;
+}
+
+h5 {
+  font-size: 20px;
+  /* 들여쓰기 */
+  text-indent: 50px;
+}
