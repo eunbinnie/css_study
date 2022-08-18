@@ -1,0 +1,17 @@
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.container .item:first-child {
+  /* 요소의 내부 여백 지정  */
+  padding: 20px;
+
+  /* border : 두께 - 종류 - 색상 */
+  border: 10px solid red;
+}
+
+.container .item:last-child {
+  border: 10px dashed #FFFF00;
+}
