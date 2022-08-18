@@ -1,0 +1,13 @@
+body {
+  margin: 20px;
+}
+
+/* 인라인 요소는 가로, 세로 값을 가질 수 없기 때문에
+블럭 요소로 보이도록 display한 후 지정 */
+span {
+  display: block;
+  width: 120px;
+  height: 30px;
+  background-color: royalblue;
+  color: white;
+}
