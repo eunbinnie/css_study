@@ -1,0 +1,28 @@
+.container {
+  width: 500px;
+  height: 300px;
+  background-color: royalblue;
+
+  /* flex 1차원 layout 정렬 */
+  display: flex;
+
+  /* 넘치면 여러 줄로 묶음 */
+  /* flex-wrap: wrap; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+/* 1 : 1 : 2 */
+.container .item:nth-child(3) {
+  flex-grow: 2;
+}
