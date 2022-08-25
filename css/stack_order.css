@@ -1,0 +1,39 @@
+.container {
+  width: 300px;
+  background-color: royalblue;
+  position: relative;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 4px dashed red;
+  background-color: orange;
+}
+
+/* 요소 쌓임 순서 : position -> z-index 큰 값 -> html 구조 나중 */
+.container .item:nth-child(1) {
+  position: relative;
+  z-index: 1;
+}
+
+.container .item:nth-child(2) {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+/* position 값 없음(맨 밑) */
+.container .item:nth-child(3) {
+  /* position: fixed; */
+  z-index: 1;
+}
+
+/* absolute, fixed는 자동으로 display: block으로 자동 변경 */
+span {
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: absolute;
+}
