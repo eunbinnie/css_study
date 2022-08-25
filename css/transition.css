@@ -1,0 +1,17 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  
+  /* 지속시간 - 대기시간 */
+  transition: 1s .5s;
+    /* width .5s,
+    background-color 2s; */
+}
+
+/* 가상 클래스 hover : 마우스를 올리면
+active : 마우스로 클릭했을 때 */
+div:active {
+  width: 300px;
+  background-color: royalblue;
+}
